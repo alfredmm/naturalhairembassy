@@ -56,7 +56,7 @@ export const HomePage: React.FC<HomePageProps> = ({
   ];
 
   const defaultWhatsAppUrl = createWhatsAppUrl(
-    "Hello Zainab! I'm on your website and would like to book a consultation or check availability for women's Microlocs/Sisterlocks™ services."
+    "Hello Zainab! I'm on your website and would like to book a consultation or check availability Microlocs/Sisterlocks™ services."
   );
 
   return (
@@ -137,7 +137,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-[#C5A059]/40 bg-[#120F0D]">
               <img
                 src={HERO_IMAGE}
-                alt="Flourishing mature microlocs / Sisterlocks on women clients by Natural Hair Embassy"
+                alt="Flourishing mature microlocs / Sisterlocks clients by Natural Hair Embassy"
                 referrerPolicy="no-referrer"
                 className="w-full h-[340px] sm:h-[480px] lg:h-[560px] object-cover object-center transform hover:scale-[1.01] transition-transform duration-700"
               />
@@ -147,13 +147,13 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <div className="bg-[#120F0D]/90 backdrop-blur-md rounded-2xl p-5 sm:p-6 border border-[#C5A059]/30 shadow-2xl max-w-md">
                   <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#C5A059] mb-1.5">
                     <Sparkles className="w-3.5 h-3.5" />
-                    <span>Women's Loctician Studio • Marietta, GA</span>
+                    <span>Loctician Studio • Marietta, GA</span>
                   </div>
                   <h3 className="font-serif text-xl sm:text-2xl font-bold text-white">
                     Precision Interlocking & Scalp Wellness
                   </h3>
                   <p className="text-xs text-[#EDE7DF] mt-1.5 leading-relaxed">
-                    Customized grid architecture tailored to curl diameter, density, and natural lifestyle for women.
+                    Customized grid architecture tailored to curl diameter, density, and natural lifestyle.
                   </p>
                   <div className="mt-3.5 flex items-center justify-between text-[11px] text-[#A3968A] border-t border-[#29211A] pt-3">
                     <span className="text-[#C5A059] font-medium flex items-center gap-1">
@@ -189,7 +189,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 
             <div className="space-y-4 text-base text-[#EDE7DF] leading-relaxed">
               <p>
-                At <strong className="text-white">Natural Hair Embassy</strong>, we believe that locks are far more than a hairstyle—they are an intimate, empowering journey of natural freedom and self-expression designed exclusively for women.
+                At <strong className="text-white">Natural Hair Embassy</strong>, we believe that locks are far more than a hairstyle—they are an intimate, empowering journey of natural freedom and self-expression designed exclusively.
               </p>
               <p>
                 Our studio focuses on three foundational pillars: <strong className="text-[#C5A059]">healthy natural hair</strong>, <strong className="text-[#C5A059]">beautiful Microlocs/Sisterlocks™</strong>, and <strong className="text-[#C5A059]">client education</strong>. We reject one-size-fits-all methods in favor of meticulous, customized interlocking techniques that respect your scalp and celebrate your hair’s unique texture.
@@ -298,7 +298,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   Hi, I'm <strong className="text-white font-semibold">Zainab Sawadogo</strong>, Certified Loctician and founder of <strong className="text-white font-semibold">Natural Hair Embassy</strong>.
                 </p>
                 <p>
-                  I believe every woman's natural hair journey is unique. I specialize in Microlocs/Sisterlocks™ installation, transfer assessments, maintenance, and natural hair care for women, offering personalized services tailored to your hair texture, lifestyle, and individual goals.
+                  I believe every woman's natural hair journey is unique. I specialize in Microlocs/Sisterlocks™ installation, transfer assessments, maintenance, and natural hair care, offering personalized services tailored to your hair texture, lifestyle, and individual goals.
                 </p>
                 <p>
                   My approach combines healthy hair practices, precision, patience, and education to create beautiful, lasting results. My goal is for every woman to feel confident, cared for, and informed throughout every stage of her locking journey.
@@ -349,7 +349,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181410] border border-[#C5A059]/40 text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A059] mb-4">
             <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-            <span>Our Service Portfolio for Women</span>
+            <span>Our Service Portfolio</span>
           </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
@@ -522,7 +522,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="w-16 h-[2px] bg-[#C5A059] mx-auto my-4" />
 
           <p className="text-sm sm:text-base text-[#EDE7DF]">
-            Real feedback from women who trust Natural Hair Embassy with their Microlocs/Sisterlocks™ journey.
+            Real feedback from clients who trust Natural Hair Embassy with their Microlocs/Sisterlocks™ journey.
           </p>
         </div>
 
@@ -566,7 +566,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#181410] border border-[#C5A059]/40 text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A059] mb-4">
             <BookOpen className="w-3.5 h-3.5 text-[#C5A059]" />
-            <span>Helpful Information for Women</span>
+            <span>Helpful Information for You</span>
           </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
@@ -622,7 +622,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181410] border border-[#C5A059]/40 text-xs font-semibold uppercase tracking-[0.22em] text-[#C5A059]">
               <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-              <span>Dedicated Exclusively to Women</span>
+              <span>Personalized Services</span>
             </div>
 
             <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight">
