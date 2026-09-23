@@ -155,7 +155,7 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'lock-repair',
-    title: 'Locs Repair & Restoration',
+    title: 'Microlocs/Sisterlocks™ Repair & Restoration',
     subtitle: 'Structural Restoration & Delicate Reinforcement',
     description: 'Specialized support for weak, thinning, damaged, or detached locks. We restore root integrity and re-establish neat parting without harsh chemicals or tension.',
     benefits: [
@@ -184,7 +184,7 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'starter-guidance',
-    title: 'Starter Locs Guidance',
+    title: 'Starter Microlocs/Sisterlocks™ Guidance',
     subtitle: 'Clarity & Roadmap for Your Natural Hair Decision',
     description: 'Professional guidance and comparative recommendations if you are exploring Microlocs/Sisterlocks™ and assessing natural hair options.',
     benefits: [
