@@ -103,71 +103,81 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
               </div>
 
               {/* Online Booking Button Card */}
-              <a
-                href={SALON_INFO.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block p-5 rounded-2xl bg-[#181410] border border-[#C5A059]/60 hover:border-[#C5A059] hover:bg-[#1E1813] transition-all shadow-md"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex items-start gap-3.5">
-                    <div className="w-12 h-12 rounded-xl bg-[#C5A059] text-[#0B0907] flex items-center justify-center shrink-0 font-bold shadow-md">
-                      <Calendar className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h4 className="font-serif text-lg font-bold text-white group-hover:text-[#E2BC68] transition-colors">
-                          Live Online Calendar
-                        </h4>
-                        <span className="px-2 py-0.5 rounded-full bg-[#C5A059]/20 text-[#C5A059] text-[10px] font-semibold uppercase tracking-wider">
-                          Recommended
-                        </span>
-                      </div>
-                      <p className="text-xs text-[#BDB2A6] mt-1 leading-relaxed">
-                        Book Microlocs/Sisterlocks™ consultations, Transfer Client Loc Assessments, or maintenance sessions.
-                      </p>
-                      <p className="text-xs text-[#C5A059] font-mono mt-2 flex items-center gap-1 font-bold">
-                        <span>https://Naturalhairembassy.as.me</span>
-                        <ExternalLink className="w-3.5 h-3.5" />
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
+              {/* Online Booking Button Card */}
+<a
+  href={SALON_INFO.bookingUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group block p-4 sm:p-5 rounded-2xl bg-[#181410] border border-[#C5A059]/60 hover:border-[#C5A059] hover:bg-[#1E1813] transition-all shadow-md overflow-hidden"
+>
+  <div className="flex items-start gap-3 sm:gap-3.5">
+    <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#C5A059] text-[#0B0907] flex items-center justify-center shrink-0 font-bold shadow-md">
+      <Calendar className="w-5 h-5 sm:w-6 sm:h-6" />
+    </div>
 
-              {/* WhatsApp Direct Chat Card */}
-              <a
-                href={defaultWhatsAppUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block p-5 rounded-2xl bg-[#141C15] border border-[#274029] hover:border-[#25D366] hover:bg-[#1A261B] transition-all shadow-md"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex items-start gap-3.5">
-                    <div className="w-12 h-12 rounded-xl bg-[#25D366] text-white flex items-center justify-center shrink-0 font-bold shadow-md">
-                      <WhatsAppIcon className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h4 className="font-serif text-lg font-bold text-white group-hover:text-[#60D869] transition-colors">
-                          WhatsApp Direct Contact
-                        </h4>
-                        <span className="px-2 py-0.5 rounded-full bg-[#25D366]/20 text-[#60D869] text-[10px] font-semibold uppercase tracking-wider">
-                          Quick Contact
-                        </span>
-                      </div>
-                      <p className="text-xs text-[#BDB2A6] mt-1 leading-relaxed">
-                        Have quick questions, want to send photos of your hair, or need guidance before booking? Chat directly with Zainab.
-                      </p>
-                      <p className="text-xs text-[#60D869] font-mono mt-2 flex items-center gap-1 font-bold">
-                        <span>Start WhatsApp Chat</span>
-                        <ExternalLink className="w-3.5 h-3.5" />
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
+    <div className="min-w-0 flex-1">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-2">
+        <h4 className="font-serif text-lg font-bold text-white group-hover:text-[#E2BC68] transition-colors">
+          Live Online Calendar
+        </h4>
 
+        <span className="self-start sm:self-auto shrink-0 px-2 py-0.5 rounded-full bg-[#C5A059]/20 text-[#C5A059] text-[10px] font-semibold uppercase tracking-wider whitespace-nowrap">
+          Recommended
+        </span>
+      </div>
+
+      <p className="text-xs text-[#BDB2A6] mt-1 leading-relaxed">
+        Book Microlocs/Sisterlocks™ consultations, Transfer Client Loc
+        Assessments, or maintenance sessions.
+      </p>
+
+      <div className="mt-3">
+        <span className="inline-flex items-center gap-1.5 text-xs text-[#C5A059] font-bold uppercase tracking-wider">
+          <span>Book Online</span>
+          <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+        </span>
+      </div>
+    </div>
+  </div>
+</a>
+
+{/* WhatsApp Direct Chat Card */}
+<a
+  href={defaultWhatsAppUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group block p-4 sm:p-5 rounded-2xl bg-[#141C15] border border-[#274029] hover:border-[#25D366] hover:bg-[#1A261B] transition-all shadow-md overflow-hidden"
+>
+  <div className="flex items-start gap-3 sm:gap-3.5">
+    <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#25D366] text-white flex items-center justify-center shrink-0 font-bold shadow-md">
+      <WhatsAppIcon className="w-5 h-5 sm:w-6 sm:h-6" />
+    </div>
+
+    <div className="min-w-0 flex-1">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-2">
+        <h4 className="font-serif text-lg font-bold text-white group-hover:text-[#60D869] transition-colors">
+          WhatsApp Direct Contact
+        </h4>
+
+        <span className="self-start sm:self-auto shrink-0 px-2 py-0.5 rounded-full bg-[#25D366]/20 text-[#60D869] text-[10px] font-semibold uppercase tracking-wider whitespace-nowrap">
+          Quick Contact
+        </span>
+      </div>
+
+      <p className="text-xs text-[#BDB2A6] mt-1 leading-relaxed">
+        Have quick questions, want to send photos of your hair, or need
+        guidance before booking? Chat directly with Zainab.
+      </p>
+
+      <div className="mt-3">
+        <span className="inline-flex items-center gap-1.5 text-xs text-[#60D869] font-bold uppercase tracking-wider">
+          <span>Start WhatsApp Chat</span>
+          <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+        </span>
+      </div>
+    </div>
+  </div>
+</a>
               {/* Notice for Women */}
               <div className="p-4 rounded-xl bg-[#191512] border border-[#2F261E] flex items-start gap-3 text-xs text-[#EDE7DF]">
                 <ShieldCheck className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" />
