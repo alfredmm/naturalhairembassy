@@ -48,7 +48,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
   const journeyStages = [
     {
       stage: 'Month 0 — The Foundation',
-      subtitle: 'Precision Installation & Geometric Starter Grid for Women',
+      subtitle: 'Precision Installation & Geometric Starter Grid',
       characteristics: 'Clean scalp partings, uniform square grid distribution, lightweight starter locks using 4-point rotation.',
       careFocus: 'Braiding and banding before washing, zero heavy products, scalp hydration misting only.',
       clientExperience: 'Immediate scalp comfort, freedom from daily styling, initial settling phase.'
@@ -88,7 +88,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-2 sm:pt-4">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181410] border border-[#C5A059]/40 text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A059] mb-4">
           <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-          <span>Real Client Transformations for Women</span>
+          <span>Real Client Transformations</span>
         </div>
 
         <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white">
@@ -100,7 +100,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
         </p>
 
         <p className="text-base sm:text-lg text-[#EDE7DF] mt-5 leading-relaxed max-w-2xl mx-auto">
-          Explore real client transformations crafted at Natural Hair Embassy in Marietta, GA. From clean square-grid Microlocs/Sisterlocks™ installations to ongoing retightenings, transfer client recoveries, and mature crown styling, our portfolio showcases the artistry and precision dedicated exclusively to women.
+          Explore real client transformations crafted at Natural Hair Embassy in Marietta, GA. From clean square-grid Microlocs/Sisterlocks™ installations to ongoing retightenings, transfer client recoveries, and mature crown styling, our portfolio showcases the artistry and precision.
         </p>
 
         <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
@@ -130,14 +130,14 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
         <div className="mt-10 relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-[#C5A059]/40 bg-[#120F0D]">
           <img
             src={RETIGHTENING_IMAGE}
-            alt="Artisan Microlocs and Sisterlocks on women clients by Natural Hair Embassy"
+            alt="Artisan Microlocs and Sisterlocks by Natural Hair Embassy"
             referrerPolicy="no-referrer"
             className="w-full h-[320px] sm:h-[460px] object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0B0907] via-transparent to-transparent flex items-end p-6 sm:p-8">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 w-full bg-[#120F0D]/85 backdrop-blur-md px-5 py-3 rounded-2xl border border-[#C5A059]/30">
               <p className="text-xs sm:text-sm text-white font-medium">
-                Showcasing healthy women's natural hair retention and tension-free interlocking craft.
+                Showcasing healthy natural hair retention and tension-free interlocking craft.
               </p>
               <span className="text-[11px] text-[#C5A059] font-mono shrink-0">
                 Open Mon–Thu, Sat–Sun 9am–4pm
@@ -257,13 +257,13 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
         <div className="bg-[#120F0D] rounded-3xl p-8 sm:p-14 border border-[#C5A059]/40 shadow-2xl">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-xs font-mono uppercase tracking-widest text-[#C5A059] block mb-2">
-              Education For Women
+              Education on Microlocs/Sisterlocks™ Care
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-white">
               The Microlocs/Sisterlocks™ Maturation Journey
             </h2>
             <p className="text-xs sm:text-sm text-[#EDE7DF] mt-2 leading-relaxed">
-              Locks are living, evolving crowns. Understanding each stage helps women embrace natural texture changes with complete peace of mind.
+              Locks are living, evolving crowns. Understanding each stage helps you embrace natural texture changes with complete peace of mind.
             </p>
           </div>
 
