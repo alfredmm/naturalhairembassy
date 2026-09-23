@@ -697,7 +697,43 @@ export const HomePage: React.FC<HomePageProps> = ({
               </span>
             </div>
           </div>
+          {/* =========================================================================
+    FLOATING GOOGLE REVIEW CTA
+   ========================================================================= */}
+<a
+  href={googleReviewUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Leave a Google Review"
+  className="
+    fixed z-50
+    right-4 sm:right-6
+    bottom-20 sm:bottom-6
+    group
+    inline-flex items-center gap-2
+    px-4 sm:px-5 py-3
+    rounded-full
+    bg-[#C5A059]
+    hover:bg-[#D4AF37]
+    text-[#0B0907]
+    border border-[#E2BC68]
+    shadow-[0_8px_30px_rgba(0,0,0,0.35)]
+    hover:shadow-[0_8px_35px_rgba(197,160,89,0.45)]
+    transition-all duration-200
+    cursor-pointer
+  "
+>
+  <Sparkles className="w-4 h-4 shrink-0" />
+
+  <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider whitespace-nowrap">
+    <span className="sm:hidden">Review Us</span>
+    <span className="hidden sm:inline">Leave a Review</span>
+  </span>
+
+  <ExternalLink className="w-3.5 h-3.5 shrink-0 opacity-80" />
+</a>
         </div>
+        
       </section>
     </div>
   );
