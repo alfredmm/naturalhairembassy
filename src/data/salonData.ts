@@ -21,7 +21,7 @@ import image15 from '../assets/images/image15.PNG';
 import image17 from '../assets/images/image17.PNG';
 import image19 from '../assets/images/image19.PNG';
 import sisterlocksInstallationAtlanta from '../assets/images/sisterlocks-installation-atlanta-ga.PNG';
-import starterMicrolocsTwoStrandTwist from '../assets/images/starter-microlocs-two-strand-twist-atlanta.PNG;
+import starterMicrolocsTwoStrandTwist from '../assets/images/starter-microlocs-two-strand-twist-atlanta.PNG';
 import transferClientMicrolocsRetie from '../assets/images/transfer-client-microlocs-re-tie-service-ga.PNG';
 
 export const HERO_IMAGE = heroImg;
