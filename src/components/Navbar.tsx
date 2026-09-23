@@ -18,7 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, onOpenB
 
   const navLinks: { id: PageType; label: string; number: string }[] = [
     { id: 'home', label: 'Home', number: '01' },
-    { id: 'gallery', label: 'Our Work (Clients)', number: '02' },
+    { id: 'gallery', label: 'Our Work', number: '02' },
     { id: 'contact', label: 'Contact', number: '03' },
   ];
 
