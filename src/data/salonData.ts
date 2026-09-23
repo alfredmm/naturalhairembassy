@@ -1,8 +1,8 @@
 import { ServiceItem, GalleryItem, Testimonial, FAQItem } from '../types';
 
-import heroImg from '../assets/images/Image2.png';
-import zainabImg from '../assets/images/image8.png';
-import gridImg from '../assets/images/image3.png';
+import heroImg from '../assets/images/Image2.PNG';
+import zainabImg from '../assets/images/image8.PNG';
+import gridImg from '../assets/images/image3.PNG';
 import matureImg from '../assets/images/image4.png';
 import retighteningImg from '../assets/images/image12.png';
 import updoImg from '../assets/images/image18.png';
