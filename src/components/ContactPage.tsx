@@ -34,7 +34,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-2 sm:pt-4">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181410] border border-[#C5A059]/40 text-xs font-semibold uppercase tracking-[0.2em] text-[#C5A059] mb-4">
           <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-          <span>Women's Microlocs/Sisterlocks™ Studio</span>
+          <span>Microlocs/Sisterlocks™ Studio</span>
         </div>
 
         <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white">
@@ -46,7 +46,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
         </p>
 
         <p className="text-base sm:text-lg text-[#EDE7DF] mt-5 leading-relaxed max-w-2xl mx-auto">
-          Dedicated exclusively to women. Whether you're considering Microlocs/Sisterlocks™ for the first time, need a Transfer Client Loc Assessment, or seek routine maintenance, we welcome you to book directly or reach out via WhatsApp.
+          Whether you're considering Microlocs/Sisterlocks™ for the first time, need a Transfer Client Loc Assessment, or seek routine maintenance, we welcome you to book directly or reach out via WhatsApp.
         </p>
 
         {/* Primary Direct Booking & Contact Options */}
@@ -172,7 +172,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
               <div className="p-4 rounded-xl bg-[#191512] border border-[#2F261E] flex items-start gap-3 text-xs text-[#EDE7DF]">
                 <ShieldCheck className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" />
                 <span>
-                  All services are dedicated exclusively to women in a private, serene studio suite designed for maximum comfort.
+                  All services are personalized, in a private, serene studio suite designed for maximum comfort.
                 </span>
               </div>
             </div>
@@ -333,7 +333,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
             </h2>
 
             <p className="text-sm sm:text-base text-[#EDE7DF] leading-relaxed">
-              Follow Natural Hair Embassy for our latest transformations for women, natural hair care tips, and Microlocs/Sisterlocks™ inspiration.
+              Follow Natural Hair Embassy for our latest transformations, natural hair care tips, and Microlocs/Sisterlocks™ inspiration.
             </p>
           </div>
 
