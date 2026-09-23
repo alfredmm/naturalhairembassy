@@ -39,7 +39,7 @@ export const LOGO_CREST = logoCrestImg;
 export const SALON_INFO = {
   name: 'Natural Hair Embassy',
   tagline: 'Healthy Hair. Beautiful Locks. Naturally You.',
-  audience: 'Dedicated Exclusively to Women',
+  audience: 'Personalized Locs Services',
   founder: 'Zainab Sawadogo',
   title: 'Certified Loctician & Founder',
   phone: '+1(912)572-2495',
@@ -82,15 +82,15 @@ export const SERVICES: ServiceItem[] = [
   {
     id: 'consultations',
     title: 'Microlocs/Sisterlocks™ Consultations',
-    subtitle: 'Comprehensive Hair Assessment & Foundation Planning for Women',
-    description: 'A personalized consultation designed exclusively for women exploring their locs journey. Includes an in-depth evaluation of your natural hair density, curl pattern, scalp health, lifestyle compatibility, and custom locking recommendations.',
+    subtitle: 'Comprehensive Hair Assessment & Foundation Planning',
+    description: 'A personalized consultation exploring your locs journey. Includes an in-depth evaluation of your natural hair density, curl pattern, scalp health, lifestyle compatibility, and custom locking recommendations.',
     benefits: [
-      'In-depth scalp health & natural curl density assessment for women',
+      'In-depth scalp health & natural curl density assessment',
       'Test locs installation to evaluate your hair pattern and interlocking response',
       'Clear roadmap with realistic timeframe and investment expectations',
       'Personalized hair preparation regimen prior to your installation'
     ],
-    idealFor: 'Women exploring Microlocs/Sisterlocks™, transitioning from loose natural hair, or seeking a trusted specialist.',
+    idealFor: 'Clients exploring Microlocs/Sisterlocks™, transitioning from loose natural hair, or seeking a trusted specialist.',
     durationEstimate: '45 – 60 Minutes',
     category: 'consultation'
   },
@@ -98,21 +98,21 @@ export const SERVICES: ServiceItem[] = [
     id: 'transfer-assessment',
     title: 'Transfer Client Locs Assessment',
     subtitle: 'Comprehensive Evaluation for Established Locks by Other Stylists',
-    description: 'Dedicated assessment session for women transferring from another loctician or self-maintaining their locks. We examine your current grid symmetry, rotation pattern, locks count, scalp health, and recommend a personalized continuing care plan.',
+    description: 'Dedicated assessment session transferring from another loctician or self-maintaining their locks. We examine your current grid symmetry, rotation pattern, locks count, scalp health, and recommend a personalized continuing care plan.',
     benefits: [
       'Thorough audit of your existing locs grid, root rotation, and locs diameter',
       'Detection and correction plan for slippage, bunching, or thinning roots',
       'Customized retightening schedule tailored to your personal growth cycle',
       'Seamless transition into our private, tension-free Marietta studio'
     ],
-    idealFor: 'Women with existing Microlocs/Sisterlocks™ seeking a certified Marietta loctician for ongoing maintenance.',
+    idealFor: 'If you have existing Microlocs/Sisterlocks™  and seeking a certified Marietta loctician for ongoing maintenance.',
     durationEstimate: '45 – 60 Minutes',
     category: 'consultation'
   },
   {
     id: 'installation',
     title: 'Microlocs/Sisterlocks™ Installation',
-    subtitle: 'Artisan Precision & Scalp-Conscious Grid Craft for Women',
+    subtitle: 'Artisan Precision & Scalp-Conscious Grid Craft',
     description: 'Professional, artisan-grade installation customized to your unique hair density, texture, length, and desired finished look. Installed with scalp-conscious, tension-free interlocking technique.',
     benefits: [
       'Custom geometric grid layout tailored precisely to your head shape and density',
@@ -120,7 +120,7 @@ export const SERVICES: ServiceItem[] = [
       'Uniform symmetrical parting lines for lifelong styling versatility and volume',
       'Complete starter care kit instructions with washing and banding protocols'
     ],
-    idealFor: 'Women ready to embark on their natural locs journey with an expert foundation.',
+    idealFor: 'If you are ready to embark on their natural locs journey with an expert foundation.',
     durationEstimate: 'Multi-Day Sessions (Scheduled for comfort and precision)',
     category: 'installation'
   },
@@ -135,7 +135,7 @@ export const SERVICES: ServiceItem[] = [
       'Individual scalp inspection during every retightening cycle',
       'Even root tension preventing perimeter stress and promoting length retention'
     ],
-    idealFor: 'Women maintaining a regular 4 to 7-week retightening cycle.',
+    idealFor: 'If you have a regular 4 to 7-week retightening cycle.',
     durationEstimate: '2.5 – 4.5 Hours (based on locs count and new growth)',
     category: 'maintenance'
   },
@@ -149,7 +149,7 @@ export const SERVICES: ServiceItem[] = [
       'Maintains clean grid lines without harsh tension on the hairline or nape',
       'Tailored guidance on active lifestyles (workouts, swimming, climate care)'
     ],
-    idealFor: 'Women navigating growth spurts, postpartum regrowth, or active lifestyles.',
+    idealFor: 'Those navigating growth spurts, postpartum regrowth, or active lifestyles.',
     durationEstimate: '3 – 4 Hours',
     category: 'maintenance'
   },
@@ -164,7 +164,7 @@ export const SERVICES: ServiceItem[] = [
       'Gentle separation of accidentally fused locks without causing breakage',
       'Protective recovery plan for vulnerable edges, temples, and crown areas'
     ],
-    idealFor: 'Women experiencing locs trauma, thinning roots, or combining issues.',
+    idealFor: 'If you are experiencing locs trauma, thinning roots, or combining issues.',
     durationEstimate: 'Assessment Required / 1 – 3 Hours',
     category: 'specialized'
   },
@@ -178,7 +178,7 @@ export const SERVICES: ServiceItem[] = [
       'Nighttime protection routines (satin bonnets, silk wraps, sleep bands)',
       'Correct washing techniques with braiding and banding protocols'
     ],
-    idealFor: 'All women desiring lifelong healthy hair education, retention, and confidence.',
+    idealFor: 'All desiring lifelong healthy hair education, retention, and confidence.',
     durationEstimate: 'Included with all appointments & available as 1-on-1 coaching',
     category: 'education'
   },
@@ -186,13 +186,13 @@ export const SERVICES: ServiceItem[] = [
     id: 'starter-guidance',
     title: 'Starter Locs Guidance',
     subtitle: 'Clarity & Roadmap for Your Natural Hair Decision',
-    description: 'Professional guidance and comparative recommendations for women exploring Microlocs/Sisterlocks™ and assessing their natural hair options.',
+    description: 'Professional guidance and comparative recommendations if you are exploring Microlocs/Sisterlocks™ and assessing natural hair options.',
     benefits: [
       'Comparison between traditional locks and Microlocs/Sisterlocks™',
       'Lifestyle feasibility review (styling versatility, workout routines)',
       'Transparent maintenance roadmap, schedule expectations, and investment'
     ],
-    idealFor: 'Women in the early decision-making phase wondering if locs fit their lifestyle.',
+    idealFor: 'Those in the early decision-making phase wondering if locs fit their lifestyle.',
     durationEstimate: '30 – 45 Minutes',
     category: 'education'
   }
@@ -295,7 +295,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'installations',
     categoryLabel: 'Studio & Experience',
     imageUrl: STUDIO_IMAGE,
-    description: 'A glimpse into our serene, private Marietta studio suite designed exclusively for women. Equipped with professional salon amenities, hooded dryers, and ergonomic styling comfort.',
+    description: 'A glimpse into our serene, private Marietta studio suite. Equipped with professional salon amenities, hooded dryers, and ergonomic styling comfort.',
     hairDetails: {
       texture: 'All Natural Textures',
       density: 'Personalized Care',
@@ -491,7 +491,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: 't-1',
     name: 'Amina K.',
     clientType: 'Microlocs/Sisterlocks™ Installation & Retightening Client',
-    quote: 'Zainab is a true hair artist and educator for women. Before coming to Natural Hair Embassy, I was terrified of scalp tension and permanent thinning. Zainab took her time during my consultation, tested my hair, and installed my locks completely pain-free. My hair is healthier than it has ever been.',
+    quote: 'Zainab is a true hair artist and educator. Before coming to Natural Hair Embassy, I was terrified of scalp tension and permanent thinning. Zainab took her time during my consultation, tested my hair, and installed my locks completely pain-free. My hair is healthier than it has ever been.',
     rating: 5,
     journeyLength: '2+ Years with Zainab'
   },
@@ -523,19 +523,19 @@ export const FAQS: FAQItem[] = [
   {
     id: 'faq-2',
     question: 'How often do Microlocs/Sisterlocks™ need maintenance / retightening?',
-    answer: 'Most women maintain a regular retightening schedule every 4 to 7 weeks. Consistent maintenance preserves clean root patterns, prevents slippage, safeguards hair follicle integrity, and supports healthy locs maturation.',
+    answer: 'Most people maintain a regular retightening schedule every 4 to 7 weeks. Consistent maintenance preserves clean root patterns, prevents slippage, safeguards hair follicle integrity, and supports healthy locs maturation.',
     category: 'maintenance'
   },
   {
     id: 'faq-3',
     question: 'Who are your services designed for?',
-    answer: 'Our studio and loctician services are created exclusively for women seeking healthy, elegant natural hair care. Whether starting a new set of Microlocs/Sisterlocks™ or transferring from another loctician, we provide a private, peaceful, and tension-free environment.',
+    answer: 'Our studio and loctician services are created exclusively for those seeking healthy, elegant natural hair care. Whether starting a new set of Microlocs/Sisterlocks™ or transferring from another loctician, we provide a private, peaceful, and tension-free environment.',
     category: 'general'
   },
   {
     id: 'faq-4',
     question: 'Are you accepting transfer clients with existing locks?',
-    answer: 'Yes! We welcome women with established Microlocs/Sisterlocks™ through our "Transfer Client Locs Assessment." During this session, Zainab evaluates your locs grid, rotation history, locs count, and creates a tailored maintenance plan for your hair.',
+    answer: 'Yes! We welcome clients with established Microlocs/Sisterlocks™ through our "Transfer Client Locs Assessment." During this session, Zainab evaluates your locs grid, rotation history, locs count, and creates a tailored maintenance plan for your hair.',
     category: 'specialized'
   },
   {
@@ -580,7 +580,7 @@ export const SALON_POLICIES = [
   },
   {
     title: 'Dedicated Studio Appointment Time',
-    summary: 'Services are by appointment to ensure undivided attention and personalized care for women.',
+    summary: 'Services are by appointment to ensure undivided attention and personalized care.',
     detail: 'Each session is reserved exclusively for you in a peaceful, private studio suite in Marietta, GA.'
   }
 ];
