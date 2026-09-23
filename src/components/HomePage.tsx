@@ -54,7 +54,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     <BookOpen key="7" className="w-5 h-5 text-[#C5A059]" />,
     <Compass key="8" className="w-5 h-5 text-[#C5A059]" />
   ];
-
+  const googleReviewUrl = "https://g.page/r/Cd_czB3FAeh9EBI/review";
   const defaultWhatsAppUrl = createWhatsAppUrl(
     "Hello Zainab! I'm on your website and would like to book a consultation or check availability Microlocs/Sisterlocks™ services."
   );
@@ -93,37 +93,52 @@ export const HomePage: React.FC<HomePageProps> = ({
 
             {/* Primary Action Button Group */}
             <div className="mt-8 sm:mt-9 flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-4">
-              <a
-                href={SALON_INFO.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                id="hero-book-online-btn"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-[#C5A059] hover:bg-[#D4AF37] text-[#0B0907] text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-lg hover:shadow-[0_0_20px_rgba(197,160,89,0.35)] cursor-pointer group"
-              >
-                <Calendar className="w-4 h-4 text-[#0B0907]" />
-                <span>BOOK ONLINE NOW</span>
-                <ExternalLink className="w-4 h-4 opacity-80" />
-              </a>
+  {/* Book Online */}
+  <a
+    href={SALON_INFO.bookingUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    id="hero-book-online-btn"
+    className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-[#C5A059] hover:bg-[#D4AF37] text-[#0B0907] text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-lg hover:shadow-[0_0_20px_rgba(197,160,89,0.35)] cursor-pointer group"
+  >
+    <Calendar className="w-4 h-4" />
+    <span>BOOK ONLINE NOW</span>
+    <ExternalLink className="w-4 h-4 opacity-80" />
+  </a>
 
-              <a
-                href={defaultWhatsAppUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-[#172418] hover:bg-[#203322] text-[#60D869] hover:text-white border border-[#274029] hover:border-[#25D366] text-xs font-bold uppercase tracking-wider transition-all cursor-pointer shadow-md"
-              >
-                <WhatsAppIcon className="w-4 h-4" />
-                <span>BOOK IN WHATSAPP</span>
-              </a>
+  {/* WhatsApp */}
+  <a
+    href={defaultWhatsAppUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-[#172418] hover:bg-[#203322] text-[#60D869] hover:text-white border border-[#274029] hover:border-[#25D366] text-xs font-bold uppercase tracking-wider transition-all cursor-pointer shadow-md"
+  >
+    <WhatsAppIcon className="w-4 h-4" />
+    <span>BOOK IN WHATSAPP</span>
+  </a>
 
-              <button
-                onClick={() => onNavigate('gallery')}
-                id="hero-explore-work-btn"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-[#181410]/80 hover:bg-[#231E18] text-white text-xs font-semibold uppercase tracking-wider border border-[#C5A059]/50 hover:border-[#C5A059] transition-all cursor-pointer backdrop-blur-sm"
-              >
-                <span>OUR WORK (CLIENTS)</span>
-              </button>
-            </div>
+  {/* Leave a Review */}
+  <a
+    href={googleReviewUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    id="hero-leave-review-btn"
+    className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-[#181410]/90 hover:bg-[#231E18] text-[#C5A059] hover:text-[#E2BC68] border border-[#C5A059]/60 hover:border-[#C5A059] text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-md cursor-pointer backdrop-blur-sm"
+  >
+    <Sparkles className="w-4 h-4" />
+    <span>LEAVE A REVIEW</span>
+    <ExternalLink className="w-4 h-4 opacity-80" />
+  </a>
 
+  {/* Our Work */}
+  <button
+    onClick={() => onNavigate('gallery')}
+    id="hero-explore-work-btn"
+    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-[#181410]/80 hover:bg-[#231E18] text-white text-xs font-semibold uppercase tracking-wider border border-[#C5A059]/50 hover:border-[#C5A059] transition-all cursor-pointer backdrop-blur-sm"
+  >
+    <span>OUR WORK (CLIENTS)</span>
+  </button>
+</div>
             {/* Operating Hours Callout */}
             <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-xs text-[#E8DFC8]">
               <span className="px-3 py-1 rounded-full bg-[#14100D]/90 border border-[#2F261E]">
