@@ -366,7 +366,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'gal-12',
-    title: 'Microlocs Retightening & New Growth Care',
+    title: 'Microlocs/Sisterlocks™ Retightening & Growth Care',
     category: 'maintenance',
     categoryLabel: 'Maintenance & Retightening',
     imageUrl: image11,
