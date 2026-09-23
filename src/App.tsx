@@ -64,7 +64,7 @@ export default function App() {
           <span className="text-[#C5A059]">•</span>
           <span className="text-[#EDE7DF]">Marietta, GA</span>
           <span className="text-[#C5A059]">•</span>
-          <span className="text-[#C5A059] font-medium">Specialized Microlocs/Sisterlocks™ Services for Women</span>
+          <span className="text-[#C5A059] font-medium">Specialized Microlocs/Sisterlocks™ Services</span>
           <span className="hidden md:inline text-[#C5A059]">•</span>
           <span className="hidden md:inline text-[#EDE7DF]">Open Mon–Thu, Sat & Sun 9am–4pm (Closed Fri)</span>
         </div>
